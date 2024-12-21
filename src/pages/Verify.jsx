@@ -12,6 +12,8 @@ const Verify = () => {
     const success = searchParams.get('success');
     const orderId = searchParams.get('orderId');
 
+    console.log(success,orderId);
+
     const verifyPayment = async () => {
         if (!token) {
             toast.error('User not authenticated. Please log in.');
