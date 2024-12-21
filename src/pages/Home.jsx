@@ -9,9 +9,9 @@ import SlideBanner from '../components/SliderBanner'
 const Home = () => {
   return (
     <div>
-      <SlideBanner />
-      <LatestCollection/>
       <Hero />
+      <LatestCollection/>
+      <SlideBanner />
       <BestSeller/>
       <OurPolicy/>
       <NewsletterBox/>
